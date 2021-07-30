@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(3, 57, 75);
+    font-family: 'VT323', monospace;
+}
+.navbar{
+    display:flex;
+    background-color: lightblue;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:900px;
+    padding-right:900px;
+    border: white solid;
+    border-radius: 90px;
+    
+}.navbar img{
+    width: 100px;
+}.navbar img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.bio{
+    display: flex;
+    background: lightblue;
+    margin-top: 100px;
+    border: white solid;
+    border-radius: 90px;
+    
+}#me{     
+    border:solid white;
+    border-radius: 360px;
+    margin: 100px;
+    align-self: flex-start;
+} #name{
+    font-size: 300px;
+    width:40%;
+    align-self: center;
+}#about{
+    font-size: 70px;
+    width:80%;
+    align-self: center;
+    margin-right: 100px;    
+}
+.education{
+    background: lightblue;
+    border: white solid;
+    margin-top:100px;
+    margin-bottom: 50px;
+    border-radius: 90px;
+    padding-bottom: 50px;
+}
+#ed{
+    text-align: center;
+    font-size: 200px;
+    
+}.edPicture{
+    width:600px;
+    justify-content: space-around;
+    margin-left:300px;
+    margin-right: 350px;
+}.education img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+.projects{
+    border: white solid;
+    border-radius: 90px;
+    background: lightblue;
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-left:100px;
+}#projects{
+    text-align: center;
+    font-size: 200px;
+}.DeybyClicker{
+    border: lightblue;
+    font-size:100px;
+    padding-bottom: 50px;
+}
+
+
+
+
+
+
